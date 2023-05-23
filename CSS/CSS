@@ -1,0 +1,100 @@
+#selektor tag
+p {
+  color: Orange;
+  font-size: 16px;
+}
+
+h1 {
+    color: red;
+    font-size: 16px;
+  }
+
+
+#selektor class
+.green {
+    color: orange;
+    background: green;
+    padding: 1px;
+  }
+
+#selektorID
+#header {
+    background: teal;
+    color: white;
+    height: 100px;
+    padding: 50px;
+}
+
+
+#selektor atribut
+body {background: white}
+
+input[type="text"] {
+    background-color: white;
+    border: 1px solid blue;
+    padding: 5px;
+  }
+  
+  a[target="_blank"] {
+    color: red;
+    text-decoration: none;
+  }
+
+
+
+  #selektor universal
+  * {
+    margin: 0;
+    padding: 0;
+    border: 1px solid grey;
+  }
+  
+  h1 {
+    color: blue;
+    text-align: center;
+  }
+  
+  p {
+    color: green;
+    margin: 10px;
+  }
+
+  #SELEKTOR PSUDO-CLASS
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: grey;
+    text-decoration: underline;
+  }
+  
+  li:nth-child(odd) {
+    background-color: lightgray;
+  }
+  
+  input[type="text"]:focus {
+    border: 2px solid red;
+  }
+
+  #selektor psudo-element
+  p::first-line {
+    color: greenyellow;
+    font-weight: bold;
+  }
+  
+  p::first-letter {
+    color: yellow;
+    font-size: 10px;
+  }
+  
+  div::before {
+    content: "perkenalan: ";
+    font-style: italic;
+  }
+  
+  div::after {
+    content: "Setelahnya.";
+    font-style: italic;
+  }
